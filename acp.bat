@@ -1,5 +1,4 @@
-echo off
-set message=%1
+#! /bin/bash
 git add .
-git commit -m %message%
+git commit -m "$1"
 git push
