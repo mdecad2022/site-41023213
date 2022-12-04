@@ -110,14 +110,14 @@ img.add_border {
             <header class="site-navbar py-4 bg-white" role="banner">
               <div class="container">
                 <div class="row align-items-center">
-                <h1>41023216</h1>
+                <h1>41023213</h1>
                 <div class="pl-4">
                     <form>
                     <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
                     </form>
                 </div>
                   <!-- <div class="col-11 col-xl-2">
-                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">41023216</a></h1> 
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">41023213</a></h1> 
                   </div>
                   -->
                   <div class="col-12 col-md-10 d-none d-xl-block">
@@ -191,7 +191,7 @@ def run1():
     try:
         url = doc.query["src"]
     except:
-        url = "https://gist.githubusercontent.com/41023216/20eec13b5f2bc8bbf3e4eeb50b9222e9/raw/8fbf69e54e0d5d275d336b83a2a3191a8d862139/w10"
+        url = "https://gist.githubusercontent.com/41023213/20eec13b5f2bc8bbf3e4eeb50b9222e9/raw/8fbf69e54e0d5d275d336b83a2a3191a8d862139/w10"
     prog = open(url).read()
 
     # 將程式載入編輯區
@@ -226,7 +226,7 @@ def clear_bd1(ev):
 # 利用 ace 中的 Editor 建立 Ace 物件, 其中的輸入變數分別對應到頁面中的編輯區物件
 Ace2 = ace.Editor(editor_id="kw_editor1", console_id="kw_console1", container_id="kw__container1", storage_id="kw_py_src1" )
 
-w10_url = "https://gist.githubusercontent.com/41023216/20eec13b5f2bc8bbf3e4eeb50b9222e9/raw/8fbf69e54e0d5d275d336b83a2a3191a8d862139/w10"
+w10_url = "https://gist.githubusercontent.com/41023213/20eec13b5f2bc8bbf3e4eeb50b9222e9/raw/8fbf69e54e0d5d275d336b83a2a3191a8d862139/w10"
 
 # 從 gist 取得程式碼
 add_src = open(w10_url).read()
